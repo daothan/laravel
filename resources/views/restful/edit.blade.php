@@ -36,7 +36,7 @@
 								@endif
 							</div>
 
-							<div class="form-group">
+							<div class="form-group {{$errors->has('age') ? 'has-error' : null}}">
 								<label for="">Edit Age</label>
 								<input type="text" name="age" class="form-control" value={{old('age', isset($data) ? $data['age'] : null)}}>
 								@if($errors->has('age'))
