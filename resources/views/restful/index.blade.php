@@ -24,8 +24,8 @@
 							<th>Name</th>
 							<th>Email</th>
 							<th>Age</th>
-							<th>Delete</th>
-							<th>Edit</th>
+							<th>&nbsp&nbsp Delete</th>
+							<th>&nbsp&nbsp Edit</th>
 						</tr>
 					</thead>
 					<tbody>
